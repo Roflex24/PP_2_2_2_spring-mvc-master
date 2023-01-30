@@ -40,15 +40,6 @@ public class Car {
         this.year = year;
     }
 
-    public static List<Car> getCars() {
-        return List.of(
-                new Car("BMW", 400000, 2012),
-                new Car("Kia", 350000, 2014),
-                new Car("Lada", 250000, 2014),
-                new Car("Renault", 500000, 2018),
-                new Car("Mercedes", 900000, 2016));
-    }
-
     @Override
     public String toString() {
         return  "model = " + model +
